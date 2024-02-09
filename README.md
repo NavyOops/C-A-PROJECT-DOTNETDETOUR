@@ -10,3 +10,9 @@
 如有侵权 可以联系@NavyOops删除项目库。
 # 请点亮Star！
 请点亮Star！谢谢！
+# 关于当前HOOK版本的注意
+协议版本 1.13.0
+更新COOKIELOGIN
+**请手动删除 UTIL 目录的 GAMESTART.CS 文件！**
+@NavyOops 
+> 赫赫，不知道为什么上传不了成品的DLL 那么就请自便！自己生成！
