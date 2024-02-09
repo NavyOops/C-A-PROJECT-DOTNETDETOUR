@@ -37,6 +37,10 @@
       <HintPath>D:\MCLauncher\MCLauncher\Mcl.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MPayCliCppWrapper, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Dian\Desktop\WPFLauncherDumpWork\MPayCliCppWrapper.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Users\Dian\Desktop\WPFLauncherDumpWork\Newtonsoft.Json.dll</HintPath>
@@ -62,9 +66,11 @@
     <Compile Include="IMethodMonitor.cs" />
     <Compile Include="LDasm.cs" />
     <Compile Include="Manager\AddressCheck.cs" />
+    <Compile Include="Manager\CookieLogin.cs" />
     <Compile Include="Manager\PlayCG.cs" />
-    <Compile Include="Manager\Utils\GameStart.cs" />
+    <Compile Include="Manager\GameStart.cs" />
     <Compile Include="Manager\Utils\SocketUtil.cs" />
+    <Compile Include="Manager\Utils\ToolUtil.cs" />
     <Compile Include="Monitor.cs" />
     <Compile Include="MonitorAttribute.cs" />
     <Compile Include="NativeAPI.cs" />
@@ -76,6 +82,15 @@
       <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
       <VersionMajor>2</VersionMajor>
       <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
       <Lcid>0</Lcid>
       <WrapperTool>primary</WrapperTool>
       <Isolated>False</Isolated>

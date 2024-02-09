@@ -41,8 +41,7 @@ namespace DotNetDetour
         public static int Install(string dir = null)
         {
             AllocConsole();
-            Console.Title = "WPFLauncher - EwseHook Release";
-            Console.WriteLine("_____________      __  ____________________   ___ ___ ________   ________   ____  __.\r\n\\_   _____/  \\    /  \\/   _____/\\_   _____/  /   |   \\\\_____  \\  \\_____  \\ |    |/ _|\r\n |    __)_\\   \\/\\/   /\\_____  \\  |    __)_  /    ~    \\/   |   \\  /   |   \\|      <  \r\n |        \\\\        / /        \\ |        \\ \\    Y    /    |    \\/    |    \\    |  \\ \r\n/_______  / \\__/\\  / /_______  //_______  /  \\___|_  /\\_______  /\\_______  /____|__ \\\r\n        \\/       \\/          \\/         \\/         \\/         \\/         \\/        \\/");
+            Console.Title = "WPFLauncher";
             if (installed)
                 return 0;
             installed = true;
@@ -71,8 +70,8 @@ namespace DotNetDetour
             }
 
             InstallInternal(true, assemblies);
-            SocketUtil.Send2Server("HOOK加载完毕 作者(B站UID)为2135288445");
-            SocketUtil.Send2Server("Inited");
+            SocketUtil.Send2Server("Github:@NavyOops");
+            SocketUtil.Send2Server("请遵守Apache开源协议 标注原作者NavyOops");
             return 1;
         }
         public static string GetWebClient(string url)
